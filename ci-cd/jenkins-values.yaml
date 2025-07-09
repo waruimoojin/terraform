@@ -3,6 +3,7 @@ controller:
   adminPassword: admin
   service:
     type: NodePort
-    nodePort: 31000
+    nodePortHttp: 31000
+    nodePortHttps: 31001
   nodeSelector:
-    kubernetes.io/hostname: "jenkins-node"
+    kubernetes.io/hostname: "cicd-1"

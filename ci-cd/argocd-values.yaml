@@ -4,4 +4,8 @@ server:
     nodePortHttp: 32001   # HTTP
     nodePortHttps: 32002  # HTTPS
   nodeSelector:
-    kubernetes.io/hostname: "argocd-node"
+    kubernetes.io/hostname: "argocd-1"
+
+dex:
+  server:
+    secretKey: "admin123"
