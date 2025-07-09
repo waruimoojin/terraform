@@ -1,0 +1,8 @@
+controller:
+  adminUser: admin
+  adminPassword: admin
+  service:
+    type: NodePort
+    nodePort: 31000
+  nodeSelector:
+    kubernetes.io/hostname: "jenkins-node"
