@@ -1,6 +1,5 @@
 Gettings ArgoCD and Jenkins PASS :
 
-
 kubectl get secret -n argocd argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo
 
 Jenkins we need to create a script inside Jenkis home directory their is the steps to follow :
