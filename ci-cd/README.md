@@ -29,5 +29,11 @@ instance.setAuthorizationStrategy(strategy)
 instance.save()
 EOF
 
-kubectl -n cicd delete pod jenkins-pod-name
+kubectl -n Namespace delete pod jenkins-pod-name
+
+Getting the Jenkins right URL  :
+
+kubectl get svc -n Namespace
+
+
 
