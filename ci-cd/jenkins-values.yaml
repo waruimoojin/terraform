@@ -1,9 +1,0 @@
-controller:
-  adminUser: admin
-  adminPassword: admin
-  service:
-    type: NodePort
-    nodePortHttp: 31000
-    nodePortHttps: 31001
-  nodeSelector:
-    kubernetes.io/hostname: "cicd-1"
